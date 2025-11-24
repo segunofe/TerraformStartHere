@@ -1,4 +1,7 @@
 
+```
+Step-By-Step guide to learning automation (IaC) using Terraform
+```
 Step-By-Step guide to learning automation (IaC) using Terraform
 
 Challenge: Automate the provisioning of an S3 bucket and an EC2 instance in AWS 
@@ -24,6 +27,9 @@ Step 4: Use AWS Hashicorp Documentation to build your .tf files
 terraform init
 terraform plan 
 terraform apply 
+
+terraform destroy -auto-approve
+
 
 terraform destroy 
 terraform validate 
