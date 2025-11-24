@@ -33,8 +33,8 @@ terraform apply
 **Other commands**
 
 ```
+terraform destroy
 terraform destroy -auto-approve
-terraform destroy 
 terraform validate 
 ```
 
