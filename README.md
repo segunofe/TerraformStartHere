@@ -8,7 +8,7 @@ Step 1: Install Terraform on your laptop
 On Windows: https://youtu.be/4yvlR4_5ZF0
 
 
-Step 2: Create a folder, switch to folder and create the terraform files
+Step 2: On VS Code, create a folder, switch to folder and create the terraform files
 
 mkdir terraform-project
 
