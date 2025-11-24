@@ -1,10 +1,10 @@
 
 
-Step-By-Step guide to learning automation (IaC) using Terraform
+**Step-By-Step guide to learning automation (IaC) using Terraform**
 
-Challenge: Automate the provisioning of an S3 bucket and an EC2 instance in AWS 
+_Challenge_: Automate the provisioning of an S3 bucket and an EC2 instance in AWS 
  
-Step 1: Install Terraform on your laptop
+_Step 1_: Install Terraform on your laptop
 
 On Windows: https://youtu.be/4yvlR4_5ZF0
 
@@ -18,28 +18,25 @@ cd terraform-project
 touch main.tf variable.tf
 ```
 
+Step 4: Use AWS Hashicorp Documentation to build your .tf files. Use the main.tf file of this repo.
 
+Step 5: Run terraform commands
 
-
-
-
-
-
-Step 4: Use AWS Hashicorp Documentation to build your .tf files 
-
-
-
-
+```
 terraform init
-terraform plan 
+
+terraform plan
+
 terraform apply 
+```
 
+Other commands
+
+```
 terraform destroy -auto-approve
-
-
 terraform destroy 
 terraform validate 
-
+```
 
 
 In main.tf file: 
