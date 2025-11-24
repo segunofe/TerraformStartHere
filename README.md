@@ -1,7 +1,5 @@
 
-```
-Step-By-Step guide to learning automation (IaC) using Terraform
-```
+
 Step-By-Step guide to learning automation (IaC) using Terraform
 
 Challenge: Automate the provisioning of an S3 bucket and an EC2 instance in AWS 
@@ -12,12 +10,20 @@ On Windows: https://youtu.be/4yvlR4_5ZF0
 
 
 Step 2: On VS Code, create a folder, switch to folder and create the terraform files
-
+```
 mkdir terraform-project
 
 cd terraform-project
 
 touch main.tf variable.tf
+```
+
+
+
+
+
+
+
 
 Step 4: Use AWS Hashicorp Documentation to build your .tf files 
 
