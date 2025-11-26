@@ -19,7 +19,9 @@ touch main.tf variable.tf
 ```
 
 **Step 4**: Use AWS Hashicorp Documentation to build your .tf files.
+
 main.tf
+
 ```
 terraform {
   required_providers {
